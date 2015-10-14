@@ -24,7 +24,6 @@ public class Contacts {
             }
            // contactToFind = c;
         }
-
         HashMap<String, Contact> contactMap = new HashMap();
         contactMap.put("Bob",bob);
         contactMap.put("Alice", alice);
@@ -39,4 +38,5 @@ public class Contacts {
             System.out.println("We found your contact");
         }
     }
+
 }
