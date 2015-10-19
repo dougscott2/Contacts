@@ -14,6 +14,7 @@ public class Exercise2 {
         String[] words = {"Alice", "Bob", "Charlie", "Austin", "Albert", "Connor"};
         for (String name : words) {
            // String firstLetter = name.substring(0,1);
+            //int fuckyou = 4;
             String firstLetter = String.valueOf(name.charAt(0));  //two options for getting the first letter
             ArrayList<String> list = groups.get(firstLetter); //creates array list called list and gets the
             if (list == null){
