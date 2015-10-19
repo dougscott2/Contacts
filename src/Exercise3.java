@@ -25,6 +25,7 @@ public class Exercise3 {
                 }
             }
         }
+
         System.out.println();
         double randNum = Math.random();
         int index = (int) (randNum * 4);
