@@ -32,14 +32,5 @@ public class Exercise5 {
         //print out the new sentence without duplicates
         System.out.println(newStr);
 
-
-
-
-
-
-
-
-
-
     }
 }
