@@ -18,13 +18,6 @@ public class Exercise6 {
         solveViaTempLists(names);
         solveViaDirectModification(names);
 
-
-
-
-
-
-
-
     }//end main
 
     static void solveViaDirectModification(ArrayList<String> names){
