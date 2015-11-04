@@ -25,18 +25,18 @@ public class Exercise7 {
         }*/
 
 
-
         //convert array into a hashmap
         HashMap<String, String> map = new HashMap();
-        for (int i =0; i< names.length; i+=2){
+        for (int i = 0; i < names.length; i += 2) {
             try {
                 map.put(names[i], names[i + 1]);
-            } catch (Exception e){}
-        System.out.println(map);
+            } catch (Exception e) {
+            }
+            System.out.println(map);
 
 
+            //{"Jones" : "Charlie"} key is last name value is first name
 
-        //{"Jones" : "Charlie"} key is last name value is first name
-
+        }
     }
 }
